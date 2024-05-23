@@ -1,0 +1,84 @@
+.clinical {
+  width: 100%;
+  margin-left: 10px;
+}
+
+.clinical-info-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.settings-icon {
+  display: flex;
+  align-items: center;
+}
+
+.clinical-info-container {
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 10px 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.clinical-content {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.total-average {
+  flex: 1 1 13%;
+}
+
+.clinical-breakdown {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.clinical-content-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  width: 100%;
+  padding-bottom: 20px;
+}
+.vertical-line {
+  border-left: 1px solid #ccc;
+  height: 80px;
+  margin: 0 10px;
+}
+
+.percentage {
+  color: green;
+}
+
+.custom-progress-bar .progress-bar {
+  height: 10px;
+}
+
+@media (max-width: 768px) {
+  .clinical {
+    margin-left: 0px;
+    height: 65dvh;
+    margin-bottom: 30px;
+  }
+  .clinical-info-container {
+    flex-direction: column;
+  }
+  .clinical-content {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .total-average {
+    width: 100%;
+  }
+  .vertical-line {
+    display: none;
+  }
+}

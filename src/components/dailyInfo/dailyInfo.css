@@ -1,0 +1,45 @@
+.daily-info-card {
+  width: auto;
+}
+
+.daily-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.daily-content-item {
+  width: 168px;
+  height: 35px;
+  border-radius: 4px;
+  opacity: 0px;
+  box-shadow: 0px 2px 4px 0px #00000017;
+  margin: 7px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.daily-content-item span {
+  color: green;
+}
+
+.out-pat-count {
+  color: blue;
+}
+.in-pat-count {
+  color: rgb(113, 224, 238);
+}
+.total-visit-count {
+  color: red;
+}
+.count {
+  padding-left: 15px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .daily-info-card {
+    width: 91dvw;
+  }
+}

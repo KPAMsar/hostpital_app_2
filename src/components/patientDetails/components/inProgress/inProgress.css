@@ -1,0 +1,31 @@
+.profile-info {
+  display: flex;
+  margin-bottom: 10px;
+  gap: 0.5rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  align-items: center;
+}
+
+.name-top p {
+  margin: 0;
+}
+
+.name-top-container {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.patientdetails-card-content {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .patientdetails-card-header {
+    width: 98%;
+  }
+  /* .patientdetails-card-content {
+    width: 100%;
+    height: 90dvh;
+  } */
+}
